@@ -6,10 +6,7 @@ import java.util.List;
 import org.junit.jupiter.api.Test;
 
 
-/**
- * Hello world!
- *
- */
+
 public class Solution1 
 {
 	
