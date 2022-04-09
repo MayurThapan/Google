@@ -19,7 +19,6 @@ public class Solution11
 
 	public static int solution (String x) {
 		
-// This is for the Max value only
 		if (x.equals(maxstring))
 		{
 			x=NewNumberMinus(x);
