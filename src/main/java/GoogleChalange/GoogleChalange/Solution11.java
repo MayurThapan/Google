@@ -15,14 +15,22 @@ public class Solution11
 	private static int carry = 0;
 	private static int internalcountPlus=0;
 	private static int internalcountMinus=0;
+	private static String maxstring="9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999";
 
 	public static int solution (String x) {
 		
-
+// This is for the Max value only
+		if (x.equals(maxstring))
+		{
+			x=NewNumberMinus(x);
+			count++;
+		}
+		
 		
 		while (!x.equals("1"))	
 		{
 
+			
 			if ((Character.getNumericValue(x.charAt(x.length() - 1)) % 2 )==0 )
 			{
 			x=NewNumber(x);
