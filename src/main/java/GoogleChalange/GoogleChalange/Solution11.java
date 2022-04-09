@@ -23,6 +23,7 @@ public class Solution11
 		
 		while (!x.equals("1"))	
 		{
+			//TO do 
 			if ((Character.getNumericValue(x.charAt(x.length() - 1)) % 2 )==0 )
 			{
 			x=NewNumber(x);
