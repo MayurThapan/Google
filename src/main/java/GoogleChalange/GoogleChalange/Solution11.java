@@ -24,6 +24,7 @@ public class Solution11
 		while (!x.equals("1"))	
 		{
 	int qwe;
+	int fdf;
 			if ((Character.getNumericValue(x.charAt(x.length() - 1)) % 2 )==0 )
 			{
 			x=NewNumber(x);
