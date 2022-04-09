@@ -15,7 +15,6 @@ public class Solution11
 	private static int carry = 0;
 	private static int internalcountPlus=0;
 	private static int internalcountMinus=0;
-//	private static String maxstring="9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999";
 
 	public static int solution (String x) {
 		
@@ -32,7 +31,6 @@ public class Solution11
 			
 			
 			else {
-	//			if (!x.equals(maxstring)) {
 				internalcountPlus=0;
 				tempxplus=NewNumberplus(x);
 				internalcountPlus++;
@@ -42,7 +40,6 @@ public class Solution11
 					internalcountPlus++;
 					
 				}
-//				}
 				internalcountMinus=0;
 				tempxminus=NewNumberMinus(x);
 				internalcountMinus++;
