@@ -1,8 +1,5 @@
 package GoogleChalange.GoogleChalange;
 
-
-import org.junit.jupiter.api.Test;
-
 public class Solution8 
 {
 	
@@ -63,7 +60,7 @@ public class Solution8
 		xor=tmp2;
 	}
 	  
-		@Test 
+
 		  public void tests() { 
 			System.out.println( solution(17,4));
 		  }
